@@ -1,0 +1,22 @@
+button {
+    background: 0;
+	border: none;
+   }
+
+  button{
+    color: #CCCCCC;
+  }
+  button:hover {
+    color: #3FE168;
+   }
+   .favorite-button.off {
+    font-variation-settings:'FILL' 0, 'wght' 400, 'GRAD' 0,'opsz' 24;
+    cursor: pointer;
+  }
+  .favorite-button.on {
+    font-variation-settings:'FILL' 1, 'wght' 400, 'GRAD' 0,'opsz' 24;
+    color: #3FE168;
+    cursor: pointer;
+  }
+
+
