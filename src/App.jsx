@@ -23,10 +23,10 @@ return (
           </div>
 
           <div id="buttonsDIV">
-              <div id="buttons">PLAY</div>
-              <div id="buttons"><Favorite/></div>
-              <div id="buttons">DOWNLOAD</div>
-              <div id="buttons">RETICENCIAS</div>
+              <div class="buttonsDIV"><span id="button-play" class="material-symbols-outlined">play_circle</span></div>   
+              <div class="buttonsDIV">< Favorite  id="button-favorite"/></div>
+              <div class="buttonsDIV"><span  id="button-download" class="material-symbols-outlined">download_for_offline</span></div>
+              <div class="buttonsDIV" id="button-ellipsis">...</div>
           </div>
 
           <div id="headerDIV">
