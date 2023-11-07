@@ -103,25 +103,26 @@ body{
     margin-left: 73px;
     display: flex;
     padding: 0px;
+    flex-direction: column;
 }
 
 #musicList1{
-    display: flex;
+    display: fixed;
     padding-right: 15px;
 }
 
 #musicList3{
-    position: fixed;
+    position: absolute;
     left: 857px;
 }
 
 #musicList4{
-    position: fixed;
+    position: absolute;
     left: 1150px;
 }
 
 #musicList5{
-    position: fixed;
+    position: absolute;
     left: 1190px;
 }
 
@@ -129,3 +130,22 @@ body{
     font-size: 18px;
     font-weight:300;
 }
+
+#App {
+    width: 25%;
+    padding: 20px;
+}
+
+#musicList1, #musicList2, #musicList3, #musicList4, #musicList5 {
+    margin: 5px 0;
+}
+
+#musicList2_1, #musicList2_2 {
+    margin-bottom: 5px;
+}
+
+.favoriteButton, .trashButton  {
+    cursor: pointer;
+}
+
+
