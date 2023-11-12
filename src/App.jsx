@@ -3,6 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import { Favorite } from "./components/favorite"
 import { ListMusic } from "./components/listMusic"
+import api from "./services/api";
+import { useEffect} from "react"
 
 
 
@@ -32,7 +34,7 @@ return (
           <div id="headerDIV">
               <div id="header1">#TÍTULO</div>
               <div id="header2">ÁLBUM</div>
-              <div id="header3">RELOGIO</div>
+              <div id="header3"><span class="material-symbols-outlined">schedule</span></div>
           </div>
           <div id="line"></div>
       </div>
