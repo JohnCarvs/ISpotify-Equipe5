@@ -1,0 +1,37 @@
+#body2{
+    background-color:#181818;
+    color: rgb(255, 255, 255);
+    margin: 10; 
+    padding: 10;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+h1{
+    position: relative;
+    top: 100px;
+    left: 130px;
+}
+
+#artistsBOX{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+#flex-box{
+    flex: '0 0 20%';
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 32); 
+    margin: 10px; /* Define a margem entre os itens */
+    padding: 20px;
+    width: 160px;
+    height: 235px;
+    Top: 150px;
+    Left: 130px;
+    border-radius: 13px;
+    margin-bottom: 30px;
+    
+}
