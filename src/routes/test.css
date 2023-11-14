@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inter:wght@700&family=Noto+Sans+Mono:wght@300;500&family=Playfair+Display:wght@800&family=Space+Grotesk:wght@500&family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inter:wght@500&family=Noto+Sans+Mono:wght@300;500&family=Playfair+Display:wght@800&family=Space+Grotesk:wght@500&family=Space+Mono:wght@700&display=swap');
 #body2{
     background-color:#181818;
     color: rgb(255, 255, 255);
@@ -5,12 +7,13 @@
     padding: 10;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    font-family: 'Inter', sans-serif;
 }
 
 h1{
     position: relative;
     top: 100px;
-    left: 130px;
+    left: 80px;
 }
 
 #artistsBOX{
@@ -24,14 +27,35 @@ h1{
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: rgb(29, 29, 32); 
+    background-color: rgba(31, 31, 31, 1);
     margin: 10px; /* Define a margem entre os itens */
     padding: 20px;
-    width: 160px;
-    height: 235px;
+    width: 140px;
+    height: 220px;
     Top: 150px;
-    Left: 130px;
+    Left: 80px;
     border-radius: 13px;
     margin-bottom: 30px;
-    
+}
+
+#imagemArtistas{
+    width: 140px;
+    height: 140px;
+    top: 232px;
+    left : 1207px;
+    border-radius: 100px;
+}
+
+#artist{
+    color: rgba(140, 140, 140, 1);
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#nomeArtistas{
+    font-weight: 700;
+    font-size: 12px;
 }
