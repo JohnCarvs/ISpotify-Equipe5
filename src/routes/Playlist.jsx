@@ -23,7 +23,6 @@ function Playlist() {
 
   return (
     <div id="mainDIV">
-      <button onClick={handleSubmit}>Botao teste</button>
       <div id="DIVGrande">
         <div id="biggerDIV">
           <img id="image" src="./spotifyPlaylist.jpeg"></img>
@@ -35,6 +34,7 @@ function Playlist() {
               {" "}
               Spotify - 50 músicas <p id="infos5">1h 7min</p>
             </p>
+            <button className="teste" onClick={handleSubmit}>Botao teste</button>
           </div>
         </div>
 

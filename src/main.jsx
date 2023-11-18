@@ -4,10 +4,12 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Test from "./routes/test.jsx";
+import Artists from "./routes/Artists.jsx";
 import Playlist from "./routes/Playlist.jsx";
 import App from "./App.jsx";
 import Error from "./routes/Error.jsx";
+import Register from "./routes/register.jsx";
+import Login from "./routes/login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,12 +18,20 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        path: "test",
-        element: <Test />,
+        path: "Artists",
+        element: <Artists />,
       },
       {
         path: "playlist",
         element: <Playlist />,
+      },
+      {
+        path: "Register",
+        element: <Register />,
+      },
+      {
+        path: "Login",
+        element: <Login />,
       },
     ],
   },
