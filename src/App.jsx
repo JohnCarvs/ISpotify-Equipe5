@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <div className="SideBar">
-        <p className="iSpotify" id="iSpotify">iSpotify®</p>
+        <p className="iSpotify" id="iSpotify">iSpotify ®</p>
         <div id="links">
           <Link to="Playlist" id="playlist" class="myLink">Playlist</Link>
           <p></p>

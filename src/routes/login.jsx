@@ -12,7 +12,7 @@ function Login() {
       <div id="h1">iSpotify®</div>
       <div>Música para todos.</div>
       <div>
-        <input className="inputs" placeholder="Email"/><br/>
+        <input className="inputs" placeholder="Email" type="email"/><br/>
         <input className="inputs" placeholder="Senha" type="password"/><br/>
        </div>
       <button id="BotaoEntrar">ENTRAR</button>

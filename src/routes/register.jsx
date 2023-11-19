@@ -10,7 +10,7 @@ function Register() {
       <div className="register">
       <div>Inscrever-se em uma conta grátis do iSpotify ®</div>
       <div>
-        <input className="inputs" placeholder="Email"/><br/>
+        <input className="inputs" placeholder="Email" type="email"/><br/>
         <input className="inputs" placeholder="Crie uma senha" type="password"/><br/>
         <input className="inputs" placeholder="Como devemos chamar você?"/><br/>
        </div>

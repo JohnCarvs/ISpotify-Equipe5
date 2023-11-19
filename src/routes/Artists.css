@@ -30,9 +30,9 @@ h1{
     background-color: rgba(31, 31, 31, 1);
     margin: 10px; /* Define a margem entre os itens */
     padding: 20px;
-    width: 140px;
+    width: 170px;
     height: 220px;
-    Top: 150px;
+    Top: 120px;
     Left: 80px;
     border-radius: 13px;
     margin-bottom: 30px;
@@ -57,5 +57,5 @@ h1{
 
 #nomeArtistas{
     font-weight: 700;
-    font-size: 12px;
+    font-size: 15px;
 }
