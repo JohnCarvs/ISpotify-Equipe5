@@ -23,7 +23,7 @@ function Register() {
     axios.post('http://localhost:3030/api/users', dados)
       .then(response => {
         console.log('Sucesso:', response.data);
-        alert("Sucesso", response.data.message);
+        window.location.href = "/login";
       })
       .catch(error => {
         console.error('Erro:', error);

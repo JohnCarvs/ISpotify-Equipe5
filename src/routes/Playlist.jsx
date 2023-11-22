@@ -5,6 +5,8 @@ import { Favorite } from "../components/favorite";
 import { ListMusic } from "../components/listMusic";
 import { useEffect } from "react";
 import createArtist from "../services/artists/createArtist";
+import createUser from "../services/user/createUser";
+import { redirect } from "react-router-dom";
 
 function Playlist() {
   const handleSubmit = () => {
@@ -34,7 +36,7 @@ function Playlist() {
               {" "}
               Spotify - 50 músicas <p id="infos5">1h 7min</p>
             </p>
-            <button className="teste" onClick={handleSubmit}>Botao teste</button>
+            <button className="teste" onClick={handleSubmit}>Botao artista</button>
           </div>
         </div>
 
