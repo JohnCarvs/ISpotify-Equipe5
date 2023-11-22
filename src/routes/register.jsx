@@ -17,23 +17,18 @@ function Register() {
       name: nome,
       email: email,
       password: senha,
-      role: 'user' 
+      role: 'user'
     };
-
-    fetch('http://localhost:3030/api/users', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(dados),
-    })
-    .then(response => response.json())
-    .then(data => {
-      console.log('Sucesso:', data);
-    })
-    .catch(error => {
-      console.error('Erro:', error);
-    });
+  
+    axios.post('http://localhost:3030/api/users', dados)
+      .then(response => {
+        console.log('Sucesso:', response.data);
+        alert("Sucesso", response.data.message);
+      })
+      .catch(error => {
+        console.error('Erro:', error);
+        alert("ERRO", error.message);
+      });
   };
 
   return (
